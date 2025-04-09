@@ -1,1 +1,106 @@
-/* CSS con letras grandes, íconos de carrito, etc. */
+/* Cambiar la fuente de todo el sitio */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;  /* Tamaño de la fuente global */
+    color: #333; /* Color de texto */
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+/* Modificar el estilo del logo */
+#logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los íconos */
+.icon {
+    font-size: 40px; /* Aumentar tamaño de los íconos */
+    color: #4CAF50; /* Color verde para los íconos */
+}
+
+/* Estilo de los botones principales */
+button, .btn {
+    background-color: #4CAF50; /* Color verde de fondo */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Espaciado alrededor del texto */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Cambio de color cuando se pasa el mouse por encima */
+button:hover, .btn:hover {
+    background-color: #45a049; /* Un verde más oscuro */
+}
+
+/* Estilo para los formularios */
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Modificar las etiquetas de los formularios */
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para los contenedores y el mapa */
+#map {
+    width: 100%;
+    height: 500px; /* Altura del mapa */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra alrededor del mapa */
+}
+
+/* Estilo para los dispositivos en la barra lateral */
+.device-list {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra */
+}
+
+/* Estilo para los dispositivos fuera de línea */
+.device-list .offline {
+    color: red; /* Color rojo para dispositivos fuera de línea */
+}
+
+/* Estilo para los encabezados */
+h1, h2, h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Modificar el menú de la barra lateral */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px 0;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #444; /* Color al pasar el mouse */
+}
